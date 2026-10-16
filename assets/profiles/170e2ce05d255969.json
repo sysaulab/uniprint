@@ -1,0 +1,3066 @@
+{
+  "format_version": 6,
+  "fingerprint": "iTerm.app-3.6.11-macos",
+  "generated_at": "unix:1792162013",
+  "capabilities": {
+    "cpr": true,
+    "zwj": "correct",
+    "regional": "correct",
+    "keycap": "too_short",
+    "vs16": "too_short",
+    "skin_tone": "correct"
+  },
+  "entries": {
+    "🏌🏿‍♀️": {
+      "emit": "🏌🏿‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏿‍♀️ ",
+      "human_reviewed": true
+    },
+    "🛥️": {
+      "emit": "🛥️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛥️ ",
+      "human_reviewed": true
+    },
+    "🖌️": {
+      "emit": "🖌️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖌️ ",
+      "human_reviewed": true
+    },
+    "🏌🏽": {
+      "emit": "🏌🏽 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏽 ",
+      "human_reviewed": true
+    },
+    "🏋🏿‍♂️": {
+      "emit": "🏋🏿‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏿‍♂️ ",
+      "human_reviewed": true
+    },
+    "🛳️": {
+      "emit": "🛳️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛳️ ",
+      "human_reviewed": true
+    },
+    "⚖️": {
+      "emit": "⚖️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚖️ ",
+      "human_reviewed": true
+    },
+    "🖋️": {
+      "emit": "🖋️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖋️ ",
+      "human_reviewed": true
+    },
+    "🏌🏼‍♀️": {
+      "emit": "🏌🏼‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏼‍♀️ ",
+      "human_reviewed": true
+    },
+    "✊🏻": {
+      "emit": "✊",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✊",
+      "human_reviewed": true
+    },
+    "◼️": {
+      "emit": "◼️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "◼️ ",
+      "human_reviewed": true
+    },
+    "✡️": {
+      "emit": "✡️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✡️ ",
+      "human_reviewed": true
+    },
+    "3️⃣": {
+      "emit": "3️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "3️⃣ ",
+      "human_reviewed": true
+    },
+    "🖥️": {
+      "emit": "🖥️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖥️ ",
+      "human_reviewed": true
+    },
+    "↗️": {
+      "emit": "↗️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↗️ ",
+      "human_reviewed": true
+    },
+    "🏌🏿": {
+      "emit": "🏌🏿 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏿 ",
+      "human_reviewed": true
+    },
+    "👁️‍🗨️": {
+      "emit": "👁️‍🗨️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "👁️‍🗨️ ",
+      "human_reviewed": true
+    },
+    "🏋🏻‍♀️": {
+      "emit": "🏋🏻‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏻‍♀️ ",
+      "human_reviewed": true
+    },
+    "⛹️‍♀️": {
+      "emit": "⛹️‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛹️‍♀️ ",
+      "human_reviewed": true
+    },
+    "🌶️": {
+      "emit": "🌶️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌶️ ",
+      "human_reviewed": true
+    },
+    "🖐🏼": {
+      "emit": "🖐🏼 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖐🏼 ",
+      "human_reviewed": true
+    },
+    "☦️": {
+      "emit": "☦️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☦️ ",
+      "human_reviewed": true
+    },
+    "🎚️": {
+      "emit": "🎚️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🎚️ ",
+      "human_reviewed": true
+    },
+    "🏌️‍♂️": {
+      "emit": "🏌️‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌️‍♂️ ",
+      "human_reviewed": true
+    },
+    "🫪": {
+      "emit": "🫪 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🫪 ",
+      "human_reviewed": true
+    },
+    "🕹️": {
+      "emit": "🕹️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕹️ ",
+      "human_reviewed": true
+    },
+    "🍽️": {
+      "emit": "🍽️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🍽️ ",
+      "human_reviewed": true
+    },
+    "▪️": {
+      "emit": "▪️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "▪️ ",
+      "human_reviewed": true
+    },
+    "✉️": {
+      "emit": "✉️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✉️ ",
+      "human_reviewed": true
+    },
+    "🏋🏾‍♀️": {
+      "emit": "🏋🏾‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏾‍♀️ ",
+      "human_reviewed": true
+    },
+    "☝🏼": {
+      "emit": "☝🏼\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "☝🏼\b",
+      "human_reviewed": true
+    },
+    "🗯️": {
+      "emit": "🗯️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗯️ ",
+      "human_reviewed": true
+    },
+    "⛹🏿‍♀️": {
+      "emit": "⛹🏿‍♀️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏿‍♀️\b",
+      "human_reviewed": true
+    },
+    "🅾️": {
+      "emit": "🅾️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🅾️ ",
+      "human_reviewed": true
+    },
+    "🫈": {
+      "emit": "🫈 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🫈 ",
+      "human_reviewed": true
+    },
+    "▫️": {
+      "emit": "▫️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "▫️ ",
+      "human_reviewed": true
+    },
+    "🏵️": {
+      "emit": "🏵️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏵️ ",
+      "human_reviewed": true
+    },
+    "⛹🏽‍♂️": {
+      "emit": "⛹🏽‍♂️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏽‍♂️\b",
+      "human_reviewed": true
+    },
+    "♟️": {
+      "emit": "♟️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♟️ ",
+      "human_reviewed": true
+    },
+    "⛹🏼‍♀️": {
+      "emit": "⛹🏼‍♀️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏼‍♀️\b",
+      "human_reviewed": true
+    },
+    "ℹ️": {
+      "emit": "ℹ️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "ℹ️ ",
+      "human_reviewed": true
+    },
+    "✊🏾": {
+      "emit": "✊",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✊",
+      "human_reviewed": true
+    },
+    "🖲️": {
+      "emit": "🖲️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖲️ ",
+      "human_reviewed": true
+    },
+    "🗒️": {
+      "emit": "🗒️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗒️ ",
+      "human_reviewed": true
+    },
+    "🌨️": {
+      "emit": "🌨️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌨️ ",
+      "human_reviewed": true
+    },
+    "▶️": {
+      "emit": "▶️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "▶️ ",
+      "human_reviewed": true
+    },
+    "🏳️‍🌈": {
+      "emit": "🏳️‍🌈 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏳️‍🌈 ",
+      "human_reviewed": true
+    },
+    "☝🏻": {
+      "emit": "☝🏻\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "☝🏻\b",
+      "human_reviewed": true
+    },
+    "⤴️": {
+      "emit": "⤴️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⤴️ ",
+      "human_reviewed": true
+    },
+    "🖐🏽": {
+      "emit": "🖐🏽 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖐🏽 ",
+      "human_reviewed": true
+    },
+    "🏋🏻": {
+      "emit": "🏋🏻 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏻 ",
+      "human_reviewed": true
+    },
+    "®️": {
+      "emit": "®️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "®️ ",
+      "human_reviewed": true
+    },
+    "📽️": {
+      "emit": "📽️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "📽️ ",
+      "human_reviewed": true
+    },
+    "🕴🏻": {
+      "emit": "🕴🏻 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕴🏻 ",
+      "human_reviewed": true
+    },
+    "⛹🏻‍♂️": {
+      "emit": "⛹🏻‍♂️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏻‍♂️\b",
+      "human_reviewed": true
+    },
+    "🏖️": {
+      "emit": "🏖️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏖️ ",
+      "human_reviewed": true
+    },
+    "⛹🏾": {
+      "emit": "⛹🏾\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏾\b",
+      "human_reviewed": true
+    },
+    "🕵🏽": {
+      "emit": "🕵🏽 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏽 ",
+      "human_reviewed": true
+    },
+    "⛹️‍♂️": {
+      "emit": "⛹️‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛹️‍♂️ ",
+      "human_reviewed": true
+    },
+    "🕴🏽": {
+      "emit": "🕴🏽 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕴🏽 ",
+      "human_reviewed": true
+    },
+    "✌🏽": {
+      "emit": "✌🏽\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✌🏽\b",
+      "human_reviewed": true
+    },
+    "⛹🏿": {
+      "emit": "⛹🏿\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏿\b",
+      "human_reviewed": true
+    },
+    "🎞️": {
+      "emit": "🎞️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🎞️ ",
+      "human_reviewed": true
+    },
+    "🕴🏼": {
+      "emit": "🕴🏼 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕴🏼 ",
+      "human_reviewed": true
+    },
+    "🛤️": {
+      "emit": "🛤️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛤️ ",
+      "human_reviewed": true
+    },
+    "☢️": {
+      "emit": "☢️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☢️ ",
+      "human_reviewed": true
+    },
+    "🏟️": {
+      "emit": "🏟️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏟️ ",
+      "human_reviewed": true
+    },
+    "☘️": {
+      "emit": "☘️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☘️ ",
+      "human_reviewed": true
+    },
+    "🫺🏽": {
+      "emit": "🫺🏽  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫺🏽  ",
+      "human_reviewed": true
+    },
+    "🌬️": {
+      "emit": "🌬️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌬️ ",
+      "human_reviewed": true
+    },
+    "⏭️": {
+      "emit": "⏭️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏭️ ",
+      "human_reviewed": true
+    },
+    "🫹🏾": {
+      "emit": "🫹🏾  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫹🏾  ",
+      "human_reviewed": true
+    },
+    "🏍️": {
+      "emit": "🏍️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏍️ ",
+      "human_reviewed": true
+    },
+    "❤️‍🔥": {
+      "emit": "❤️‍🔥 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "❤️‍🔥 ",
+      "human_reviewed": true
+    },
+    "♦️": {
+      "emit": "♦️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♦️ ",
+      "human_reviewed": true
+    },
+    "⏲️": {
+      "emit": "⏲️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏲️ ",
+      "human_reviewed": true
+    },
+    "🏋🏼‍♀️": {
+      "emit": "🏋🏼‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏼‍♀️ ",
+      "human_reviewed": true
+    },
+    "✊🏿": {
+      "emit": "✊",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✊",
+      "human_reviewed": true
+    },
+    "☃️": {
+      "emit": "☃️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☃️ ",
+      "human_reviewed": true
+    },
+    "⛓️‍💥": {
+      "emit": "⛓️‍💥 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛓️‍💥 ",
+      "human_reviewed": true
+    },
+    "◻️": {
+      "emit": "◻️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "◻️ ",
+      "human_reviewed": true
+    },
+    "🏌🏽‍♀️": {
+      "emit": "🏌🏽‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏽‍♀️ ",
+      "human_reviewed": true
+    },
+    "🛰️": {
+      "emit": "🛰️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛰️ ",
+      "human_reviewed": true
+    },
+    "🕊️": {
+      "emit": "🕊️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕊️ ",
+      "human_reviewed": true
+    },
+    "♾️": {
+      "emit": "♾️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♾️ ",
+      "human_reviewed": true
+    },
+    "⛷️": {
+      "emit": "⛷️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛷️ ",
+      "human_reviewed": true
+    },
+    "🏌🏻": {
+      "emit": "🏌🏻 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏻 ",
+      "human_reviewed": true
+    },
+    "✍️": {
+      "emit": "✍️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✍️ ",
+      "human_reviewed": true
+    },
+    "🫺🏻": {
+      "emit": "🫺🏻  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫺🏻  ",
+      "human_reviewed": true
+    },
+    "⛹🏼‍♂️": {
+      "emit": "⛹🏼‍♂️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏼‍♂️\b",
+      "human_reviewed": true
+    },
+    "☄️": {
+      "emit": "☄️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☄️ ",
+      "human_reviewed": true
+    },
+    "🖐🏿": {
+      "emit": "🖐🏿 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖐🏿 ",
+      "human_reviewed": true
+    },
+    "🫺🏾": {
+      "emit": "🫺🏾  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫺🏾  ",
+      "human_reviewed": true
+    },
+    "🛣️": {
+      "emit": "🛣️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛣️ ",
+      "human_reviewed": true
+    },
+    "🖍️": {
+      "emit": "🖍️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖍️ ",
+      "human_reviewed": true
+    },
+    "⛹🏻‍♀️": {
+      "emit": "⛹🏻‍♀️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏻‍♀️\b",
+      "human_reviewed": true
+    },
+    "☯️": {
+      "emit": "☯️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☯️ ",
+      "human_reviewed": true
+    },
+    "⛹🏾‍♂️": {
+      "emit": "⛹🏾‍♂️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏾‍♂️\b",
+      "human_reviewed": true
+    },
+    "⛱️": {
+      "emit": "⛱️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛱️ ",
+      "human_reviewed": true
+    },
+    "🎙️": {
+      "emit": "🎙️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🎙️ ",
+      "human_reviewed": true
+    },
+    "0️⃣": {
+      "emit": "0️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "0️⃣ ",
+      "human_reviewed": true
+    },
+    "⚰️": {
+      "emit": "⚰️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚰️ ",
+      "human_reviewed": true
+    },
+    "♣️": {
+      "emit": "♣️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♣️ ",
+      "human_reviewed": true
+    },
+    "🗜️": {
+      "emit": "🗜️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗜️ ",
+      "human_reviewed": true
+    },
+    "🗃️": {
+      "emit": "🗃️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗃️ ",
+      "human_reviewed": true
+    },
+    "🖐🏻": {
+      "emit": "🖐🏻 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖐🏻 ",
+      "human_reviewed": true
+    },
+    "🕸️": {
+      "emit": "🕸️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕸️ ",
+      "human_reviewed": true
+    },
+    "🌡️": {
+      "emit": "🌡️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌡️ ",
+      "human_reviewed": true
+    },
+    "↔️": {
+      "emit": "↔️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↔️ ",
+      "human_reviewed": true
+    },
+    "9️⃣": {
+      "emit": "9️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "9️⃣ ",
+      "human_reviewed": true
+    },
+    "6️⃣": {
+      "emit": "6️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "6️⃣ ",
+      "human_reviewed": true
+    },
+    "↖️": {
+      "emit": "↖️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↖️ ",
+      "human_reviewed": true
+    },
+    "⏱️": {
+      "emit": "⏱️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏱️ ",
+      "human_reviewed": true
+    },
+    "🗄️": {
+      "emit": "🗄️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗄️ ",
+      "human_reviewed": true
+    },
+    "🏛️": {
+      "emit": "🏛️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏛️ ",
+      "human_reviewed": true
+    },
+    "©️": {
+      "emit": "©️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "©️ ",
+      "human_reviewed": true
+    },
+    "⏺️": {
+      "emit": "⏺️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏺️ ",
+      "human_reviewed": true
+    },
+    "✌🏾": {
+      "emit": "✌🏾\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✌🏾\b",
+      "human_reviewed": true
+    },
+    "♀️": {
+      "emit": "♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♀️ ",
+      "human_reviewed": true
+    },
+    "7️⃣": {
+      "emit": "7️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "7️⃣ ",
+      "human_reviewed": true
+    },
+    "✋🏻": {
+      "emit": "✋",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✋",
+      "human_reviewed": true
+    },
+    "↕️": {
+      "emit": "↕️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↕️ ",
+      "human_reviewed": true
+    },
+    "🕰️": {
+      "emit": "🕰️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕰️ ",
+      "human_reviewed": true
+    },
+    "⬇️": {
+      "emit": "⬇️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⬇️ ",
+      "human_reviewed": true
+    },
+    "2️⃣": {
+      "emit": "2️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "2️⃣ ",
+      "human_reviewed": true
+    },
+    "🫍": {
+      "emit": "🫍 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🫍 ",
+      "human_reviewed": true
+    },
+    "🪎": {
+      "emit": "🪎 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🪎 ",
+      "human_reviewed": true
+    },
+    "🗨️": {
+      "emit": "🗨️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗨️ ",
+      "human_reviewed": true
+    },
+    "☝🏽": {
+      "emit": "☝🏽\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "☝🏽\b",
+      "human_reviewed": true
+    },
+    "1️⃣": {
+      "emit": "1️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "1️⃣ ",
+      "human_reviewed": true
+    },
+    "◀️": {
+      "emit": "◀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "◀️ ",
+      "human_reviewed": true
+    },
+    "🕵🏾‍♂️": {
+      "emit": "🕵🏾‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏾‍♂️ ",
+      "human_reviewed": true
+    },
+    "🪊": {
+      "emit": "🪊 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🪊 ",
+      "human_reviewed": true
+    },
+    "🕴️": {
+      "emit": "🕴️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕴️ ",
+      "human_reviewed": true
+    },
+    "🏘️": {
+      "emit": "🏘️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏘️ ",
+      "human_reviewed": true
+    },
+    "🎛️": {
+      "emit": "🎛️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🎛️ ",
+      "human_reviewed": true
+    },
+    "🏋️‍♀️": {
+      "emit": "🏋️‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋️‍♀️ ",
+      "human_reviewed": true
+    },
+    "☝🏿": {
+      "emit": "☝🏿\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "☝🏿\b",
+      "human_reviewed": true
+    },
+    "⚠️": {
+      "emit": "⚠️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚠️ ",
+      "human_reviewed": true
+    },
+    "🎖️": {
+      "emit": "🎖️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🎖️ ",
+      "human_reviewed": true
+    },
+    "🐿️": {
+      "emit": "🐿️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🐿️ ",
+      "human_reviewed": true
+    },
+    "✍🏻": {
+      "emit": "✍🏻\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✍🏻\b",
+      "human_reviewed": true
+    },
+    "⏹️": {
+      "emit": "⏹️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏹️ ",
+      "human_reviewed": true
+    },
+    "🌧️": {
+      "emit": "🌧️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌧️ ",
+      "human_reviewed": true
+    },
+    "🕴🏾": {
+      "emit": "🕴🏾 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕴🏾 ",
+      "human_reviewed": true
+    },
+    "⏯️": {
+      "emit": "⏯️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏯️ ",
+      "human_reviewed": true
+    },
+    "☺️": {
+      "emit": "☺️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☺️ ",
+      "human_reviewed": true
+    },
+    "✍🏽": {
+      "emit": "✍🏽\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✍🏽\b",
+      "human_reviewed": true
+    },
+    "♨️": {
+      "emit": "♨️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♨️ ",
+      "human_reviewed": true
+    },
+    "🫺🏼": {
+      "emit": "🫺🏼  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫺🏼  ",
+      "human_reviewed": true
+    },
+    "⚜️": {
+      "emit": "⚜️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚜️ ",
+      "human_reviewed": true
+    },
+    "🏎️": {
+      "emit": "🏎️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏎️ ",
+      "human_reviewed": true
+    },
+    "⛴️": {
+      "emit": "⛴️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛴️ ",
+      "human_reviewed": true
+    },
+    "🏋🏾‍♂️": {
+      "emit": "🏋🏾‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏾‍♂️ ",
+      "human_reviewed": true
+    },
+    "🏋🏽": {
+      "emit": "🏋🏽 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏽 ",
+      "human_reviewed": true
+    },
+    "⛸️": {
+      "emit": "⛸️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛸️ ",
+      "human_reviewed": true
+    },
+    "🏌🏾‍♀️": {
+      "emit": "🏌🏾‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏾‍♀️ ",
+      "human_reviewed": true
+    },
+    "♂️": {
+      "emit": "♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♂️ ",
+      "human_reviewed": true
+    },
+    "🫹🏿": {
+      "emit": "🫹🏿  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫹🏿  ",
+      "human_reviewed": true
+    },
+    "8️⃣": {
+      "emit": "8️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "8️⃣ ",
+      "human_reviewed": true
+    },
+    "⚧️": {
+      "emit": "⚧️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚧️ ",
+      "human_reviewed": true
+    },
+    "🫹🏼": {
+      "emit": "🫹🏼  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫹🏼  ",
+      "human_reviewed": true
+    },
+    "🖐🏾": {
+      "emit": "🖐🏾 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖐🏾 ",
+      "human_reviewed": true
+    },
+    "🛘": {
+      "emit": "🛘 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛘 ",
+      "human_reviewed": true
+    },
+    "5️⃣": {
+      "emit": "5️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "5️⃣ ",
+      "human_reviewed": true
+    },
+    "🕵🏾": {
+      "emit": "🕵🏾 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏾 ",
+      "human_reviewed": true
+    },
+    "🫺🏿": {
+      "emit": "🫺🏿  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫺🏿  ",
+      "human_reviewed": true
+    },
+    "🖐️": {
+      "emit": "🖐️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖐️ ",
+      "human_reviewed": true
+    },
+    "☣️": {
+      "emit": "☣️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☣️ ",
+      "human_reviewed": true
+    },
+    "🏙️": {
+      "emit": "🏙️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏙️ ",
+      "human_reviewed": true
+    },
+    "🗡️": {
+      "emit": "🗡️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗡️ ",
+      "human_reviewed": true
+    },
+    "☪️": {
+      "emit": "☪️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☪️ ",
+      "human_reviewed": true
+    },
+    "🗑️": {
+      "emit": "🗑️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗑️ ",
+      "human_reviewed": true
+    },
+    "🕵🏼‍♂️": {
+      "emit": "🕵🏼‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏼‍♂️ ",
+      "human_reviewed": true
+    },
+    "✌🏿": {
+      "emit": "✌🏿\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✌🏿\b",
+      "human_reviewed": true
+    },
+    "✴️": {
+      "emit": "✴️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✴️ ",
+      "human_reviewed": true
+    },
+    "✖️": {
+      "emit": "✖️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✖️ ",
+      "human_reviewed": true
+    },
+    "✍🏾": {
+      "emit": "✍🏾\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✍🏾\b",
+      "human_reviewed": true
+    },
+    "🏷️": {
+      "emit": "🏷️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏷️ ",
+      "human_reviewed": true
+    },
+    "⛈️": {
+      "emit": "⛈️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛈️ ",
+      "human_reviewed": true
+    },
+    "🌦️": {
+      "emit": "🌦️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌦️ ",
+      "human_reviewed": true
+    },
+    "❤️": {
+      "emit": "❤️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "❤️ ",
+      "human_reviewed": true
+    },
+    "🕵🏻": {
+      "emit": "🕵🏻 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏻 ",
+      "human_reviewed": true
+    },
+    "Ⓜ️": {
+      "emit": "Ⓜ️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "Ⓜ️ ",
+      "human_reviewed": true
+    },
+    "🌩️": {
+      "emit": "🌩️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌩️ ",
+      "human_reviewed": true
+    },
+    "🏋🏼‍♂️": {
+      "emit": "🏋🏼‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏼‍♂️ ",
+      "human_reviewed": true
+    },
+    "✊🏼": {
+      "emit": "✊",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✊",
+      "human_reviewed": true
+    },
+    "🅱️": {
+      "emit": "🅱️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🅱️ ",
+      "human_reviewed": true
+    },
+    "🌤️": {
+      "emit": "🌤️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌤️ ",
+      "human_reviewed": true
+    },
+    "⛹🏽": {
+      "emit": "⛹🏽\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏽\b",
+      "human_reviewed": true
+    },
+    "☝️": {
+      "emit": "☝️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☝️ ",
+      "human_reviewed": true
+    },
+    "🕵🏻‍♂️": {
+      "emit": "🕵🏻‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏻‍♂️ ",
+      "human_reviewed": true
+    },
+    "🏋🏻‍♂️": {
+      "emit": "🏋🏻‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏻‍♂️ ",
+      "human_reviewed": true
+    },
+    "✌️": {
+      "emit": "✌️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✌️ ",
+      "human_reviewed": true
+    },
+    "✋🏽": {
+      "emit": "✋",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✋",
+      "human_reviewed": true
+    },
+    "🗝️": {
+      "emit": "🗝️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗝️ ",
+      "human_reviewed": true
+    },
+    "✊🏽": {
+      "emit": "✊",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✊",
+      "human_reviewed": true
+    },
+    "↙️": {
+      "emit": "↙️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↙️ ",
+      "human_reviewed": true
+    },
+    "♥️": {
+      "emit": "♥️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♥️ ",
+      "human_reviewed": true
+    },
+    "🏕️": {
+      "emit": "🏕️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏕️ ",
+      "human_reviewed": true
+    },
+    "🕵🏼": {
+      "emit": "🕵🏼 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏼 ",
+      "human_reviewed": true
+    },
+    "™️": {
+      "emit": "™️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "™️ ",
+      "human_reviewed": true
+    },
+    "✳️": {
+      "emit": "✳️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✳️ ",
+      "human_reviewed": true
+    },
+    "4️⃣": {
+      "emit": "4️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "4️⃣ ",
+      "human_reviewed": true
+    },
+    "☑️": {
+      "emit": "☑️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☑️ ",
+      "human_reviewed": true
+    },
+    "✋🏿": {
+      "emit": "✋",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✋",
+      "human_reviewed": true
+    },
+    "☎️": {
+      "emit": "☎️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☎️ ",
+      "human_reviewed": true
+    },
+    "⛰️": {
+      "emit": "⛰️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛰️ ",
+      "human_reviewed": true
+    },
+    "⚱️": {
+      "emit": "⚱️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚱️ ",
+      "human_reviewed": true
+    },
+    "⛹🏼": {
+      "emit": "⛹🏼\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏼\b",
+      "human_reviewed": true
+    },
+    "⬅️": {
+      "emit": "⬅️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⬅️ ",
+      "human_reviewed": true
+    },
+    "⛓️": {
+      "emit": "⛓️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛓️ ",
+      "human_reviewed": true
+    },
+    "🏌️‍♀️": {
+      "emit": "🏌️‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌️‍♀️ ",
+      "human_reviewed": true
+    },
+    "⚒️": {
+      "emit": "⚒️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚒️ ",
+      "human_reviewed": true
+    },
+    "✌🏼": {
+      "emit": "✌🏼\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✌🏼\b",
+      "human_reviewed": true
+    },
+    "☠️": {
+      "emit": "☠️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☠️ ",
+      "human_reviewed": true
+    },
+    "🕉️": {
+      "emit": "🕉️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕉️ ",
+      "human_reviewed": true
+    },
+    "⏏️": {
+      "emit": "⏏️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏏️ ",
+      "human_reviewed": true
+    },
+    "🏚️": {
+      "emit": "🏚️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏚️ ",
+      "human_reviewed": true
+    },
+    "🕵🏽‍♀️": {
+      "emit": "🕵🏽‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏽‍♀️ ",
+      "human_reviewed": true
+    },
+    "↘️": {
+      "emit": "↘️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↘️ ",
+      "human_reviewed": true
+    },
+    "👁️": {
+      "emit": "👁️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "👁️ ",
+      "human_reviewed": true
+    },
+    "🕳️": {
+      "emit": "🕳️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕳️ ",
+      "human_reviewed": true
+    },
+    "✌🏻": {
+      "emit": "✌🏻\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✌🏻\b",
+      "human_reviewed": true
+    },
+    "☸️": {
+      "emit": "☸️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☸️ ",
+      "human_reviewed": true
+    },
+    "🖊️": {
+      "emit": "🖊️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖊️ ",
+      "human_reviewed": true
+    },
+    "🗺️": {
+      "emit": "🗺️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗺️ ",
+      "human_reviewed": true
+    },
+    "🏋🏿": {
+      "emit": "🏋🏿 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏿 ",
+      "human_reviewed": true
+    },
+    "🏋🏽‍♂️": {
+      "emit": "🏋🏽‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏽‍♂️ ",
+      "human_reviewed": true
+    },
+    "☂️": {
+      "emit": "☂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☂️ ",
+      "human_reviewed": true
+    },
+    "🫹🏽": {
+      "emit": "🫹🏽  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫹🏽  ",
+      "human_reviewed": true
+    },
+    "⚗️": {
+      "emit": "⚗️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚗️ ",
+      "human_reviewed": true
+    },
+    "🏞️": {
+      "emit": "🏞️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏞️ ",
+      "human_reviewed": true
+    },
+    "🏌️": {
+      "emit": "🏌️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌️ ",
+      "human_reviewed": true
+    },
+    "🏋🏿‍♀️": {
+      "emit": "🏋🏿‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏿‍♀️ ",
+      "human_reviewed": true
+    },
+    "🕵🏼‍♀️": {
+      "emit": "🕵🏼‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏼‍♀️ ",
+      "human_reviewed": true
+    },
+    "❤️‍🩹": {
+      "emit": "❤️‍🩹 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "❤️‍🩹 ",
+      "human_reviewed": true
+    },
+    "🏳️‍⚧️": {
+      "emit": "🏳️‍⚧️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏳️‍⚧️ ",
+      "human_reviewed": true
+    },
+    "🕵🏽‍♂️": {
+      "emit": "🕵🏽‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏽‍♂️ ",
+      "human_reviewed": true
+    },
+    "✍🏿": {
+      "emit": "✍🏿\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✍🏿\b",
+      "human_reviewed": true
+    },
+    "✝️": {
+      "emit": "✝️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✝️ ",
+      "human_reviewed": true
+    },
+    "🕯️": {
+      "emit": "🕯️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕯️ ",
+      "human_reviewed": true
+    },
+    "#️⃣": {
+      "emit": "#️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "#️⃣ ",
+      "human_reviewed": true
+    },
+    "🏌🏾": {
+      "emit": "🏌🏾 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏾 ",
+      "human_reviewed": true
+    },
+    "✔️": {
+      "emit": "✔️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✔️ ",
+      "human_reviewed": true
+    },
+    "⛹🏻": {
+      "emit": "⛹🏻\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏻\b",
+      "human_reviewed": true
+    },
+    "✂️": {
+      "emit": "✂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✂️ ",
+      "human_reviewed": true
+    },
+    "🏔️": {
+      "emit": "🏔️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏔️ ",
+      "human_reviewed": true
+    },
+    "🏳️": {
+      "emit": "🏳️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏳️ ",
+      "human_reviewed": true
+    },
+    "⌨️": {
+      "emit": "⌨️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⌨️ ",
+      "human_reviewed": true
+    },
+    "🕶️": {
+      "emit": "🕶️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕶️ ",
+      "human_reviewed": true
+    },
+    "✍🏼": {
+      "emit": "✍🏼\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "✍🏼\b",
+      "human_reviewed": true
+    },
+    "🏋️‍♂️": {
+      "emit": "🏋️‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋️‍♂️ ",
+      "human_reviewed": true
+    },
+    "🫹🏻": {
+      "emit": "🫹🏻  ",
+      "expected": 3,
+      "measured": 1,
+      "input_expected": 3,
+      "input_measured": 1,
+      "suggested": "🫹🏻  ",
+      "human_reviewed": true
+    },
+    "🗳️": {
+      "emit": "🗳️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗳️ ",
+      "human_reviewed": true
+    },
+    "⬆️": {
+      "emit": "⬆️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⬆️ ",
+      "human_reviewed": true
+    },
+    "⛹🏿‍♂️": {
+      "emit": "⛹🏿‍♂️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏿‍♂️\b",
+      "human_reviewed": true
+    },
+    "‼️": {
+      "emit": "‼️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "‼️ ",
+      "human_reviewed": true
+    },
+    "🏗️": {
+      "emit": "🏗️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏗️ ",
+      "human_reviewed": true
+    },
+    "🕵🏿": {
+      "emit": "🕵🏿 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏿 ",
+      "human_reviewed": true
+    },
+    "☁️": {
+      "emit": "☁️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☁️ ",
+      "human_reviewed": true
+    },
+    "🏋🏾": {
+      "emit": "🏋🏾 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏾 ",
+      "human_reviewed": true
+    },
+    "🛋️": {
+      "emit": "🛋️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛋️ ",
+      "human_reviewed": true
+    },
+    "⚔️": {
+      "emit": "⚔️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚔️ ",
+      "human_reviewed": true
+    },
+    "⛏️": {
+      "emit": "⛏️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛏️ ",
+      "human_reviewed": true
+    },
+    "🗣️": {
+      "emit": "🗣️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗣️ ",
+      "human_reviewed": true
+    },
+    "🕵🏾‍♀️": {
+      "emit": "🕵🏾‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏾‍♀️ ",
+      "human_reviewed": true
+    },
+    "🏋🏽‍♀️": {
+      "emit": "🏋🏽‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏽‍♀️ ",
+      "human_reviewed": true
+    },
+    "🌪️": {
+      "emit": "🌪️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌪️ ",
+      "human_reviewed": true
+    },
+    "🏌🏿‍♂️": {
+      "emit": "🏌🏿‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏿‍♂️ ",
+      "human_reviewed": true
+    },
+    "🖱️": {
+      "emit": "🖱️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖱️ ",
+      "human_reviewed": true
+    },
+    "🕵️‍♀️": {
+      "emit": "🕵️‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵️‍♀️ ",
+      "human_reviewed": true
+    },
+    "⛩️": {
+      "emit": "⛩️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛩️ ",
+      "human_reviewed": true
+    },
+    "☮️": {
+      "emit": "☮️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☮️ ",
+      "human_reviewed": true
+    },
+    "↪️": {
+      "emit": "↪️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↪️ ",
+      "human_reviewed": true
+    },
+    "🖇️": {
+      "emit": "🖇️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖇️ ",
+      "human_reviewed": true
+    },
+    "🕵️": {
+      "emit": "🕵️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵️ ",
+      "human_reviewed": true
+    },
+    "⏮️": {
+      "emit": "⏮️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏮️ ",
+      "human_reviewed": true
+    },
+    "🛢️": {
+      "emit": "🛢️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛢️ ",
+      "human_reviewed": true
+    },
+    "🛠️": {
+      "emit": "🛠️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛠️ ",
+      "human_reviewed": true
+    },
+    "🌥️": {
+      "emit": "🌥️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌥️ ",
+      "human_reviewed": true
+    },
+    "🏋️": {
+      "emit": "🏋️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋️ ",
+      "human_reviewed": true
+    },
+    "☹️": {
+      "emit": "☹️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☹️ ",
+      "human_reviewed": true
+    },
+    "🛏️": {
+      "emit": "🛏️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛏️ ",
+      "human_reviewed": true
+    },
+    "⚛️": {
+      "emit": "⚛️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚛️ ",
+      "human_reviewed": true
+    },
+    "♠️": {
+      "emit": "♠️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♠️ ",
+      "human_reviewed": true
+    },
+    "🕵🏿‍♀️": {
+      "emit": "🕵🏿‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏿‍♀️ ",
+      "human_reviewed": true
+    },
+    "🏌🏻‍♂️": {
+      "emit": "🏌🏻‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏻‍♂️ ",
+      "human_reviewed": true
+    },
+    "🗓️": {
+      "emit": "🗓️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗓️ ",
+      "human_reviewed": true
+    },
+    "⁉️": {
+      "emit": "⁉️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⁉️ ",
+      "human_reviewed": true
+    },
+    "✒️": {
+      "emit": "✒️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✒️ ",
+      "human_reviewed": true
+    },
+    "🎟️": {
+      "emit": "🎟️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🎟️ ",
+      "human_reviewed": true
+    },
+    "🕷️": {
+      "emit": "🕷️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕷️ ",
+      "human_reviewed": true
+    },
+    "🕵️‍♂️": {
+      "emit": "🕵️‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵️‍♂️ ",
+      "human_reviewed": true
+    },
+    "🗞️": {
+      "emit": "🗞️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗞️ ",
+      "human_reviewed": true
+    },
+    "🎗️": {
+      "emit": "🎗️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🎗️ ",
+      "human_reviewed": true
+    },
+    "🅰️": {
+      "emit": "🅰️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🅰️ ",
+      "human_reviewed": true
+    },
+    "❄️": {
+      "emit": "❄️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "❄️ ",
+      "human_reviewed": true
+    },
+    "🏋🏼": {
+      "emit": "🏋🏼 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏋🏼 ",
+      "human_reviewed": true
+    },
+    "🖼️": {
+      "emit": "🖼️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖼️ ",
+      "human_reviewed": true
+    },
+    "🕵🏻‍♀️": {
+      "emit": "🕵🏻‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏻‍♀️ ",
+      "human_reviewed": true
+    },
+    "🏝️": {
+      "emit": "🏝️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏝️ ",
+      "human_reviewed": true
+    },
+    "☀️": {
+      "emit": "☀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "☀️ ",
+      "human_reviewed": true
+    },
+    "🅿️": {
+      "emit": "🅿️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🅿️ ",
+      "human_reviewed": true
+    },
+    "🖨️": {
+      "emit": "🖨️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🖨️ ",
+      "human_reviewed": true
+    },
+    "✏️": {
+      "emit": "✏️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✏️ ",
+      "human_reviewed": true
+    },
+    "⛹🏽‍♀️": {
+      "emit": "⛹🏽‍♀️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏽‍♀️\b",
+      "human_reviewed": true
+    },
+    "🏌🏽‍♂️": {
+      "emit": "🏌🏽‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏽‍♂️ ",
+      "human_reviewed": true
+    },
+    "⚙️": {
+      "emit": "⚙️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚙️ ",
+      "human_reviewed": true
+    },
+    "⤵️": {
+      "emit": "⤵️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⤵️ ",
+      "human_reviewed": true
+    },
+    "⏸️": {
+      "emit": "⏸️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⏸️ ",
+      "human_reviewed": true
+    },
+    "↩️": {
+      "emit": "↩️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "↩️ ",
+      "human_reviewed": true
+    },
+    "🏌🏾‍♂️": {
+      "emit": "🏌🏾‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏾‍♂️ ",
+      "human_reviewed": true
+    },
+    "➡️": {
+      "emit": "➡️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "➡️ ",
+      "human_reviewed": true
+    },
+    "🏌🏻‍♀️": {
+      "emit": "🏌🏻‍♀️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏻‍♀️ ",
+      "human_reviewed": true
+    },
+    "✋🏼": {
+      "emit": "✋",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✋",
+      "human_reviewed": true
+    },
+    "🫯": {
+      "emit": "🫯 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🫯 ",
+      "human_reviewed": true
+    },
+    "🛩️": {
+      "emit": "🛩️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛩️ ",
+      "human_reviewed": true
+    },
+    "❇️": {
+      "emit": "❇️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "❇️ ",
+      "human_reviewed": true
+    },
+    "⛑️": {
+      "emit": "⛑️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛑️ ",
+      "human_reviewed": true
+    },
+    "♻️": {
+      "emit": "♻️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "♻️ ",
+      "human_reviewed": true
+    },
+    "🏌🏼": {
+      "emit": "🏌🏼 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏼 ",
+      "human_reviewed": true
+    },
+    "☝🏾": {
+      "emit": "☝🏾\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "☝🏾\b",
+      "human_reviewed": true
+    },
+    "🗂️": {
+      "emit": "🗂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🗂️ ",
+      "human_reviewed": true
+    },
+    "⚕️": {
+      "emit": "⚕️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⚕️ ",
+      "human_reviewed": true
+    },
+    "✈️": {
+      "emit": "✈️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "✈️ ",
+      "human_reviewed": true
+    },
+    "🛎️": {
+      "emit": "🛎️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛎️ ",
+      "human_reviewed": true
+    },
+    "*️⃣": {
+      "emit": "*️⃣ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "*️⃣ ",
+      "human_reviewed": true
+    },
+    "⛹🏾‍♀️": {
+      "emit": "⛹🏾‍♀️\b",
+      "expected": 2,
+      "measured": 3,
+      "input_expected": 2,
+      "input_measured": 3,
+      "suggested": "⛹🏾‍♀️\b",
+      "human_reviewed": true
+    },
+    "✋🏾": {
+      "emit": "✋",
+      "expected": 2,
+      "measured": 2,
+      "input_expected": 2,
+      "input_measured": 4,
+      "suggested": "✋",
+      "human_reviewed": true
+    },
+    "🛍️": {
+      "emit": "🛍️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛍️ ",
+      "human_reviewed": true
+    },
+    "⛹️": {
+      "emit": "⛹️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "⛹️ ",
+      "human_reviewed": true
+    },
+    "🏌🏼‍♂️": {
+      "emit": "🏌🏼‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏌🏼‍♂️ ",
+      "human_reviewed": true
+    },
+    "❣️": {
+      "emit": "❣️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "❣️ ",
+      "human_reviewed": true
+    },
+    "🛡️": {
+      "emit": "🛡️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🛡️ ",
+      "human_reviewed": true
+    },
+    "🏜️": {
+      "emit": "🏜️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🏜️ ",
+      "human_reviewed": true
+    },
+    "🌫️": {
+      "emit": "🌫️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🌫️ ",
+      "human_reviewed": true
+    },
+    "🕴🏿": {
+      "emit": "🕴🏿 ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕴🏿 ",
+      "human_reviewed": true
+    },
+    "🕵🏿‍♂️": {
+      "emit": "🕵🏿‍♂️ ",
+      "expected": 2,
+      "measured": 1,
+      "input_expected": 2,
+      "input_measured": 1,
+      "suggested": "🕵🏿‍♂️ ",
+      "human_reviewed": true
+    }
+  }
+}

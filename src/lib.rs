@@ -19,13 +19,82 @@ use serde::{Deserialize, Serialize};
 use unicode_segmentation::UnicodeSegmentation;
 use unicode_width::UnicodeWidthStr;
 
-const FORMAT_VERSION: u32 = 5;
+const FORMAT_VERSION: u32 = 6;
 const PROBE_TIMEOUT_MS: u64 = 250;
 const PROBE_ROW: u16 = 2;
 
 //Cascade corrections.
 
 const PAD_THRESHOLD: i32 = 1;
+
+// ================================================================ fingerprint
+
+
+/// Coarse terminal identity used for profile sharing.
+///
+/// Everything environment-specific (LANG, LC_CTYPE, TMUX, session ids, term
+/// program hashes…) is deliberately dropped. The fingerprint is
+/// `{terminal}-{version}-{os}`, so two users running the same terminal build
+/// on the same OS land on the same profile.
+fn terminal_name() -> String {
+    if let Ok(v) = std::env::var("TERM_PROGRAM") {
+        if !v.is_empty() {
+            return v;
+        }
+    }
+    if std::env::var_os("KITTY_WINDOW_ID").is_some()   { return "kitty".into(); }
+    if std::env::var_os("WEZTERM_VERSION").is_some()   { return "WezTerm".into(); }
+    if std::env::var_os("GHOSTTY_VERSION").is_some()   { return "ghostty".into(); }
+    if std::env::var_os("WT_SESSION").is_some()        { return "WindowsTerminal".into(); }
+    if std::env::var_os("ALACRITTY_SOCKET").is_some()  { return "Alacritty".into(); }
+    if std::env::var_os("VTE_VERSION").is_some()       { return "VTE".into(); }
+    if let Ok(t) = std::env::var("TERM") {
+        if !t.is_empty() {
+            return t;
+        }
+    }
+    "unknown".into()
+}
+
+fn terminal_version() -> String {
+    for v in [
+        "TERM_PROGRAM_VERSION",
+        "WEZTERM_VERSION",
+        "GHOSTTY_VERSION",
+        "VTE_VERSION",
+    ] {
+        if let Ok(val) = std::env::var(v) {
+            if !val.is_empty() {
+                return val;
+            }
+        }
+    }
+    "unknown".into()
+}
+
+fn os_name() -> String {
+    std::env::consts::OS.to_string()
+}
+
+fn fingerprint() -> String {
+    format!("{}-{}-{}", terminal_name(), terminal_version(), os_name())
+}
+
+/// Convert a fingerprint into a filesystem-safe file name.
+/// Bytes outside `[A-Za-z0-9._-]` become `_`.
+fn profile_filename(fp: &str) -> String {
+    let mut out = String::with_capacity(fp.len() + 5);
+    for c in fp.chars() {
+        if c.is_ascii_alphanumeric() || c == '.' || c == '-' || c == '_' {
+            out.push(c);
+        } else {
+            out.push('_');
+        }
+    }
+    out.push_str(".json");
+    out
+}
+
 
 fn strip_vs16(s: &str) -> String {
     s.chars().filter(|c| *c != '\u{FE0F}').collect()
@@ -141,23 +210,6 @@ pub struct Entry {
 
 // ================================================================ fingerprint
 
-fn fingerprint() -> String {
-    const VARS: &[&str] = &[
-        "TERM", "TERM_PROGRAM", "TERM_PROGRAM_VERSION", "VTE_VERSION",
-        "KITTY_WINDOW_ID", "WEZTERM_VERSION", "GHOSTTY_VERSION",
-        "WT_SESSION", "ALACRITTY_SOCKET",
-        "LC_CTYPE", "LANG",
-        "TMUX", "TMUX_PANE",
-    ];
-    let mut parts = Vec::with_capacity(VARS.len());
-    for v in VARS {
-        if let Ok(val) = std::env::var(v) {
-            parts.push(format!("{}={}", v, val));
-        }
-    }
-    parts.join("|")
-}
-
 fn fnv1a_64(data: &[u8]) -> u64 {
     let mut h: u64 = 0xcbf2_9ce4_8422_2325;
     for &b in data {
@@ -187,6 +239,14 @@ fn cache_dir() -> PathBuf {
     directories::ProjectDirs::from("", "", "uniprint")
         .map(|d| d.data_dir().to_path_buf())
         .unwrap_or_else(|| PathBuf::from("."))
+}
+
+/// Directory holding per-terminal profile JSON files.
+///
+/// Public so `uniprint-install` writes to exactly the same location the
+/// runtime reads from. Never duplicate this path logic elsewhere.
+pub fn terminals_dir() -> PathBuf {
+    cache_dir().join("terminals")
 }
 
 fn now_iso8601() -> String {
@@ -410,7 +470,6 @@ struct State {
     caps: Capabilities,
     entries: HashMap<String, Entry>,
     fingerprint: String,
-    fingerprint_hash: String,
     cache_path: PathBuf,
     enabled: bool,
 }
@@ -603,7 +662,6 @@ pub fn init() -> io::Result<()> {
             caps: Capabilities::disabled(),
             entries: HashMap::new(),
             fingerprint: String::new(),
-            fingerprint_hash: String::new(),
             cache_path: PathBuf::new(),
             enabled: false,
         };
@@ -628,7 +686,6 @@ pub fn init() -> io::Result<()> {
                     caps: cf.capabilities,
                     entries: cf.entries,
                     fingerprint: fp,
-                    fingerprint_hash: hash,
                     cache_path,
                     enabled: true,
                 };
@@ -674,7 +731,6 @@ pub fn init() -> io::Result<()> {
         caps,
         entries,
         fingerprint: fp.clone(),
-        fingerprint_hash: hash,
         cache_path,
         enabled: caps.cpr,
     };
@@ -779,8 +835,7 @@ pub fn render(s: &str) -> String {
 /// `init()` to force a rebuild.
 pub fn clear_cache() -> io::Result<()> {
     let fp = fingerprint();
-    let hash = fingerprint_hash(&fp);
-    let path = cache_dir().join("terminals").join(format!("{}.json", hash));
+    let path = terminals_dir().join(profile_filename(&fp));
     if path.exists() {
         std::fs::remove_file(&path)?;
     }
