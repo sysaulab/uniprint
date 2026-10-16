@@ -264,6 +264,7 @@ struct Tty {
     orig: libc::termios,
     raw: bool,
     alt: bool,
+    probes: u64,
 }
 
 impl Tty {
@@ -274,7 +275,7 @@ impl Tty {
         if unsafe { libc::tcgetattr(fd, &mut t) } != 0 {
             return Err(io::Error::last_os_error());
         }
-        Ok(Self { file, orig: t, raw: false, alt: false })
+        Ok(Self { file, orig: t, raw: false, alt: false, probes: 0 })
     }
 
     fn write(&mut self, s: &str) -> io::Result<()> {
@@ -326,6 +327,7 @@ impl Tty {
     }
 
     fn probe(&mut self, grapheme: &str) -> io::Result<Option<u16>> {
+        self.probes += 1;
         self.write(&format!(
             "\x1b[{};1H\x1b[2K{}\x1b[6n",
             PROBE_ROW, grapheme
@@ -701,6 +703,8 @@ pub fn init() -> io::Result<()> {
     tty.enter_raw()?;
     drain(&mut tty);
 
+    let calibrate_start = Instant::now();
+
     let caps = probe_capabilities(&mut tty)?;
 
     let entries = if caps.cpr {
@@ -710,21 +714,37 @@ pub fn init() -> io::Result<()> {
         HashMap::new()
     };
 
+    let elapsed = calibrate_start.elapsed();
+    let probes = tty.probes;
+    let per_probe_ms = if probes > 0 {
+        elapsed.as_secs_f64() * 1000.0 / probes as f64
+    } else {
+        0.0
+    };
+
     // Report before restoring so the user sees it in the alt screen.
     tty.write(&format!(
         "\x1b[1;1H\x1b[2KCalibrated {} entries.",
         entries.len(),
     ))?;
-    tty.write("\x1b[2;1H\x1b[2KPress any key to continue...")?;
+    tty.write(&format!(
+        "\x1b[2;1H\x1b[2K{} probes in {:.2?} ({:.2} ms/probe avg).",
+        probes, elapsed, per_probe_ms,
+    ))?;
+    tty.write("\x1b[3;1H\x1b[2KPress any key to continue...")?;
     drain(&mut tty);
     wait_for_key(&mut tty)?;
 
     drop(tty); // Drop restores alt screen and raw mode.
 
     eprintln!(
-        "uniprint: calibrated {} entries -> {}",
+        "uniprint: calibrated {} entries in {:.2?} \
+         ({} probes, {:.2} ms/probe) -> {}",
         entries.len(),
-        cache_path.display()
+        elapsed,
+        probes,
+        per_probe_ms,
+        cache_path.display(),
     );
 
     let state = State {
