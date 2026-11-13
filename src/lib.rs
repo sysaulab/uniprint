@@ -96,57 +96,13 @@ fn profile_filename(fp: &str) -> String {
 }
 
 
-fn strip_vs16(s: &str) -> String {
-    s.chars().filter(|c| *c != '\u{FE0F}').collect()
-}
 
-fn strip_vs16_and_skin(s: &str) -> String {
-    s.chars()
-        .filter(|c| {
-            *c != '\u{FE0F}' && !(0x1F3FB..=0x1F3FF).contains(&(*c as u32))
-        })
-        .collect()
-}
-
-/// Ordered sequence of progressively simpler forms of `g`. Stage 0 is the
-/// input itself. Each subsequent stage is strictly simpler. Deduplicated.
-fn cascade_stages(g: &str, _caps: &Capabilities) -> Vec<String> {
-    let mut stages: Vec<String> = Vec::with_capacity(5);
-    let mut push = |s: String, v: &mut Vec<String>| {
-        if !v.contains(&s) {
-            v.push(s);
-        }
-    };
-
-    push(g.to_string(), &mut stages);
-
-    // 1. VS16 removed.
-    if g.contains('\u{FE0F}') {
-        push(strip_vs16(g), &mut stages);
+fn correction(diff: i32) -> String {
+    if diff < 0 {
+        " ".repeat((-diff) as usize)
+    } else {
+        String::new()
     }
-
-    // 2. VS16 + skin tone removed.
-    let has_skin = g.chars().any(|c| (0x1F3FB..=0x1F3FF).contains(&(c as u32)));
-    if has_skin {
-        push(strip_vs16_and_skin(g), &mut stages);
-    }
-
-    // 3. Truncate at first ZWJ, then strip VS16 and skin tone.
-    if let Some(idx) = g.find('\u{200D}') {
-        push(strip_vs16_and_skin(&g[..idx]), &mut stages);
-    }
-
-    // 4. First surviving codepoint only (the base pictograph).
-    let first = g.chars().find(|c| {
-        !(0x1F3FB..=0x1F3FF).contains(&(*c as u32))
-            && *c != '\u{FE0F}'
-            && *c != '\u{200D}'
-    });
-    if let Some(c) = first {
-        push(c.to_string(), &mut stages);
-    }
-
-    stages
 }
 
 
@@ -510,70 +466,46 @@ fn load_corpus() -> Vec<String> {
     v
 }
 
-fn correction(diff: i32) -> String {
-    if diff > 0 {
-        "\x08".repeat(diff as usize)
-    } else if diff < 0 {
-        " ".repeat((-diff) as usize)
-    } else {
-        String::new()
-    }
-}
-
-fn build_emit(g: &str, caps: &Capabilities, tty: &mut Tty) -> io::Result<Entry> {
+fn build_emit(g: &str, tty: &mut Tty) -> io::Result<Entry> {
     let input_expected = g.width() as i32;
     let input_measured = tty.probe(g)?.map(|c| c as i32 - 1).unwrap_or(input_expected);
     let input_diff = input_measured - input_expected;
 
-    let make = |emit_str: &str, exp: i32, m: i32, ie: i32, im: i32| {
-    let emit = format!("{}{}", emit_str, correction(m - exp));
-    Entry {
-        suggested: emit.clone(),
-        emit,
-        expected: exp,
-        measured: m,
-        input_expected: ie,
-        input_measured: im,
-        human_reviewed: false,
-    }
-};
-
-    // Rule 1: small deviation — keep as-is and pad.
-    if input_diff.abs() <= PAD_THRESHOLD {
-        return Ok(make(g, input_expected, input_measured,
-                       input_expected, input_measured));
-    }
-
-    // Negative deviation: pad, never strip. Under-advance is a measurement
-    // bug that padding fixes directly; stripping would only make it worse.
-    if input_diff < 0 {
-        return Ok(make(g, input_expected, input_measured,
-                       input_expected, input_measured));
-    }
-
-    // Positive deviation beyond threshold: cascade.
-    let stages = cascade_stages(g, caps);
-    let mut best = (g.to_string(), input_expected, input_measured);
-
-    for s in stages.iter().skip(1) {
-        let exp = s.width() as i32;
-        let m = tty.probe(s)?.map(|c| c as i32 - 1).unwrap_or(exp);
-        let d = m - exp;
-
-        if d.abs() <= PAD_THRESHOLD {
-            return Ok(make(s, exp, m, input_expected, input_measured));
+    let make = |emit_str: &str, exp: i32, m: i32| -> Entry {
+        let emit = format!("{}{}", emit_str, correction(m - exp));
+        Entry {
+            suggested: emit.clone(),
+            emit,
+            expected: exp,
+            measured: m,
+            input_expected,
+            input_measured,
+            human_reviewed: false,
         }
-        if d.abs() < (best.2 - best.1).abs() {
-            best = (s.clone(), exp, m);
-        }
+    };
+
+    // Correct, or too short: emit the original grapheme, pad with spaces if
+    // the terminal under-advances.
+    if input_diff <= 0 {
+        return Ok(make(g, input_expected, input_measured));
     }
 
-    Ok(make(&best.0, best.1, best.2, input_expected, input_measured))
+    // Too long: strip to the first base codepoint and recheck. If that's now
+    // too short, `correction` pads; if it's still too long, we emit as-is
+    // (we no longer backspace).
+    let stripped = strip_to_base(g);
+    if stripped == g {
+        return Ok(make(g, input_expected, input_measured));
+    }
+    let exp = stripped.width() as i32;
+    let m = tty.probe(&stripped)?.map(|c| c as i32 - 1).unwrap_or(exp);
+    Ok(make(&stripped, exp, m))
 }
+
+
 
 fn build_entries(
     corpus: &[String],
-    caps: &Capabilities,
     tty: &mut Tty,
 ) -> io::Result<HashMap<String, Entry>> {
     let total = corpus.len();
@@ -585,7 +517,7 @@ fn build_entries(
             i + 1, total, g
         ))?;
 
-        let entry = build_emit(g, caps, tty)?;
+        let entry = build_emit(g, tty)?;
         if entry.emit != *g {
             entries.insert(g.clone(), entry);
         }
@@ -709,7 +641,7 @@ pub fn init() -> io::Result<()> {
 
     let entries = if caps.cpr {
         let corpus = load_corpus();
-        build_entries(&corpus, &caps, &mut tty)?
+        build_entries(&corpus, &mut tty)?
     } else {
         HashMap::new()
     };
@@ -809,7 +741,7 @@ pub fn calibrate(graphemes: &[&str]) -> io::Result<()> {
             "\x1b[1;1H\x1b[2KCalibrating {}/{}: {}",
             i + 1, graphemes.len(), g
         ))?;
-        let entry = build_emit(g, &caps, &mut tty)?;
+        let entry = build_emit(g, &mut tty)?;
         if entry.emit != *g {
             state.entries.insert((*g).to_string(), entry);
         }
